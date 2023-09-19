@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": "salon",
+        "config_entries": [
+          "46dc0e06b65d1d8c2ae8c5702c698187"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "c3eae16b790c71d08444d8c6152e9170",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6b366f9d2f6e9601c29eaeaba7ff1c4f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b648270f18bd26dcf664798857cb7f45",
+        "identifiers": [
+          [
+            "sun",
+            "6b366f9d2f6e9601c29eaeaba7ff1c4f"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "salon",
+        "config_entries": [
+          "2baeef1bd1d90ff20b6385c7c6c6bb3d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f8461a92c68a53b62a4f4f1679e52807",
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00158d0009cf93b6"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "Aqara temperature, humidity and pressure sensor (WSDCGQ11LM)",
+        "name_by_user": "temperature_sensor_leaving_room",
+        "name": "0x00158d0009cf93b6",
+        "sw_version": "3000-0001",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5ca4fee1b201d0806b7f8862a54dd23f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "896a210ac5d80d20b813125d17570c9f",
+        "identifiers": [
+          [
+            "mobile_app",
+            "F5A47A34-3BAB-4C64-A895-2FACF010311C"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone13,1",
+        "name_by_user": null,
+        "name": "iPhone",
+        "sw_version": "17.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2baeef1bd1d90ff20b6385c7c6c6bb3d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": "user",
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0d7e4a109ee8f10866d9e04f1edb7b63",
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x847127fffedd23af"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI driver for wireless control (30 watt) (ICPSHC24-30EU-IL-1)",
+        "name_by_user": null,
+        "name": "0x847127fffedd23af",
+        "sw_version": "1.2.245",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "24bf819a6bcfaa83ea313e20fe1757e7"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "708178e6f524a02ac50e778e119665c4",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.32.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6d1c19d9cd472f49383d1b24a768d4a9"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f5f6029e31db231b0a357d943a52e623",
+        "identifiers": [
+          [
+            "alarmo",
+            "7c7f994b7021"
+          ]
+        ],
+        "manufacturer": "@nielsfaber",
+        "model": "Alarmo",
+        "name_by_user": null,
+        "name": "Alarmo",
+        "sw_version": "1.9.10",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

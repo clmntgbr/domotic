@@ -1,0 +1,23 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+
+#automation: !include automations.yaml
+#script: !include scripts.yaml
+#scene: !include scenes.yaml
+
+telegram_bot:
+  - platform: polling
+    api_key: "6519705554:AAEPBCMvaym_OTNjOawGmdVjSiOscMr6GyA"
+    allowed_chat_ids:
+      - 6696591931
+
+notify:
+  - platform: telegram
+    name: "HomeAssistant"
+    chat_id: 6696591931

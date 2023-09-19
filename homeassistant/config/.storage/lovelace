@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Maison",
+      "views": [
+        {
+          "subview": true,
+          "title": "Maison",
+          "path": "maison",
+          "badges": [],
+          "cards": [
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.forecast_maison",
+              "forecast_type": "daily",
+              "name": "Forecast "
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "show_state": true,
+              "type": "glance",
+              "entities": [
+                {
+                  "entity": "sensor.leaving_room_0x00158d0009cf93b6_temperature"
+                },
+                {
+                  "entity": "sensor.leaving_room_0x00158d0009cf93b6_humidity"
+                },
+                {
+                  "entity": "sensor.leaving_room_0x00158d0009cf93b6_pressure"
+                },
+                {
+                  "entity": "sensor.leaving_room_0x00158d0009cf93b6_battery"
+                }
+              ],
+              "theme": "waves",
+              "state_color": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

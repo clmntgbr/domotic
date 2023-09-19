@@ -1,0 +1,16 @@
+info  2023-09-14 18:17:56: Logging to console and directory: '/app/data/log/2023-09-14.18-17-56' filename: log.txt
+info  2023-09-14 18:17:56: Starting Zigbee2MQTT version 1.33.0 (commit #7ee207f)
+info  2023-09-14 18:17:56: Starting zigbee-herdsman (0.18.5)
+info  2023-09-14 18:18:00: zigbee-herdsman started (resumed)
+info  2023-09-14 18:18:00: Coordinator firmware version: '{"meta":{"maintrel":"3 ","majorrel":"6","minorrel":"10","product":8,"revision":"6.10.3.0 build 297"},"type":"EZSP v8"}'
+info  2023-09-14 18:18:00: Currently 1 devices are joined:
+info  2023-09-14 18:18:00: 0x00158d0009cf93b6 (0x00158d0009cf93b6): WSDCGQ11LM - Xiaomi Aqara temperature, humidity and pressure sensor (EndDevice)
+warn  2023-09-14 18:18:00: `permit_join` set to  `true` in configuration.yaml.
+warn  2023-09-14 18:18:00: Allowing new devices to join.
+warn  2023-09-14 18:18:00: Set `permit_join` to `false` once you joined all devices.
+info  2023-09-14 18:18:00: Zigbee: allowing new devices to join.
+info  2023-09-14 18:18:00: Connecting to MQTT server at mqtt://mosquitto
+error 2023-09-14 18:18:01: MQTT error: getaddrinfo ENOTFOUND mosquitto
+error 2023-09-14 18:18:01: MQTT failed to connect, exiting...
+info  2023-09-14 18:18:01: Stopping zigbee-herdsman...
+info  2023-09-14 18:18:02: Stopped zigbee-herdsman

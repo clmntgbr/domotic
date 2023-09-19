@@ -1,0 +1,708 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.clement",
+        "state": "home",
+        "attributes": {
+          "editable": true,
+          "id": "clement",
+          "latitude": 48.76116943359375,
+          "longitude": 2.367482651130606,
+          "gps_accuracy": 61.972045091757735,
+          "source": "device_tracker.iphone",
+          "user_id": "f180b0ae335c4298b663f9eadbbb89db",
+          "device_trackers": [
+            "device_tracker.iphone"
+          ],
+          "friendly_name": "Clement"
+        },
+        "last_changed": "2023-09-16T16:31:18.099587+00:00",
+        "last_updated": "2023-09-16T16:31:38.018242+00:00",
+        "context": {
+          "id": "01HAFDAQH2G561S9JSTFDSH9NJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "tts.google_en_com",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Google en com"
+        },
+        "last_changed": "2023-09-16T16:31:34.851559+00:00",
+        "last_updated": "2023-09-16T16:31:34.851559+00:00",
+        "context": {
+          "id": "01HAFDAME3GWYEMND056P3VYKB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_level",
+        "state": "30",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-30",
+          "friendly_name": "iPhone Battery Level"
+        },
+        "last_changed": "2023-09-19T11:11:01.828712+00:00",
+        "last_updated": "2023-09-19T11:11:01.828712+00:00",
+        "context": {
+          "id": "01HAPJ5V646T3D9JSDBK38MB6R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 30,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_storage",
+        "state": "8.11",
+        "attributes": {
+          "Available": "11,66 GB",
+          "Available (Important)": "31,75 GB",
+          "Available (Opportunistic)": "10,38 GB",
+          "Total": "127,87 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone Storage"
+        },
+        "last_changed": "2023-09-19T11:11:01.831304+00:00",
+        "last_updated": "2023-09-19T11:11:01.831304+00:00",
+        "context": {
+          "id": "01HAPJ5V67RPQ942YBVCB0AV1P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "8.11",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone SSID"
+        },
+        "last_changed": "2023-09-19T11:11:01.832427+00:00",
+        "last_updated": "2023-09-19T11:11:01.832427+00:00",
+        "context": {
+          "id": "01HAPJ5V68KY0DGE828KG92DFP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone BSSID"
+        },
+        "last_changed": "2023-09-19T11:11:01.833498+00:00",
+        "last_updated": "2023-09-19T11:11:01.833498+00:00",
+        "context": {
+          "id": "01HAPJ5V69TV8FX7881ZXHRBXZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone Connection Type"
+        },
+        "last_changed": "2023-09-16T16:31:37.611018+00:00",
+        "last_updated": "2023-09-16T16:31:37.611018+00:00",
+        "context": {
+          "id": "01HAFDAQ4BJ5AJFHP9KFKDQAZ6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-30",
+          "friendly_name": "iPhone Battery State"
+        },
+        "last_changed": "2023-09-18T05:06:51.525568+00:00",
+        "last_updated": "2023-09-19T11:11:01.830121+00:00",
+        "context": {
+          "id": "01HAPJ5V660ZMG90RZ1PF95AKP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 2"
+        },
+        "last_changed": "2023-09-16T16:31:37.612644+00:00",
+        "last_updated": "2023-09-16T16:31:37.612644+00:00",
+        "context": {
+          "id": "01HAFDAQ4CSJSNQYEAZ7JYSC2K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_1",
+        "state": "Free",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "Free",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 1"
+        },
+        "last_changed": "2023-09-16T16:31:37.613376+00:00",
+        "last_updated": "2023-09-19T11:11:01.844117+00:00",
+        "context": {
+          "id": "01HAPJ5V6MR11V6B391PSD7K91",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Free",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_geocoded_location",
+        "state": "Square Martorell\n94550 Chevilly-Larue\nFrance",
+        "attributes": {
+          "Administrative Area": "Île-de-France",
+          "Areas Of Interest": "N/A",
+          "Country": "France",
+          "Inland Water": "N/A",
+          "ISO Country Code": "FR",
+          "Locality": "Chevilly-Larue",
+          "Location": [
+            48.76116943359375,
+            2.367482651130606
+          ],
+          "Name": "Square Martorell",
+          "Ocean": "N/A",
+          "Postal Code": "94550",
+          "Sub Administrative Area": "Val-de-Marne",
+          "Sub Locality": "N/A",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Square Martorell",
+          "Time Zone": "Europe/Paris",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone Geocoded Location"
+        },
+        "last_changed": "2023-09-16T16:31:37.614396+00:00",
+        "last_updated": "2023-09-16T16:31:37.614396+00:00",
+        "context": {
+          "id": "01HAFDAQ4EE79BG74C3ET60NFX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Square Martorell\n94550 Chevilly-Larue\nFrance",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone Last Update Trigger"
+        },
+        "last_changed": "2023-09-18T05:06:51.528775+00:00",
+        "last_updated": "2023-09-18T05:06:51.528775+00:00",
+        "context": {
+          "id": "01HAKAYA08G99SRFNH1YR8NVT6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 48,
+          "latitude": 48.76116943359375,
+          "longitude": 2.367482651130606,
+          "gps_accuracy": 61.972045091757735,
+          "altitude": 90.60393524169922,
+          "vertical_accuracy": 24.657733917236328,
+          "friendly_name": "iPhone"
+        },
+        "last_changed": "2023-09-16T16:31:37.617823+00:00",
+        "last_updated": "2023-09-16T16:31:37.617823+00:00",
+        "context": {
+          "id": "01HAFDAQ4HXQ7G4NQJDF76TTVH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "alarm_control_panel.alarmo",
+        "state": "disarmed",
+        "attributes": {
+          "code_format": null,
+          "changed_by": null,
+          "code_arm_required": false,
+          "arm_mode": null,
+          "open_sensors": null,
+          "bypassed_sensors": null,
+          "delay": null,
+          "icon": "mdi:shield-home",
+          "friendly_name": "Alarmo",
+          "supported_features": 8
+        },
+        "last_changed": "2023-09-16T16:33:11.315390+00:00",
+        "last_updated": "2023-09-16T16:33:33.863091+00:00",
+        "context": {
+          "id": "01HAFDE8N7VS7V3YCNBA86H3AJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.leaving_room_0x00158d0009cf93b6_humidity",
+        "state": "47",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "Humidité"
+        },
+        "last_changed": "2023-09-19T13:59:04.985184+00:00",
+        "last_updated": "2023-09-19T13:59:04.985184+00:00",
+        "context": {
+          "id": "01HAPVSJ0SC61V8JDH0K47G7FJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "47",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.leaving_room_0x00158d0009cf93b6_battery",
+        "state": "90",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "Batterie"
+        },
+        "last_changed": "2023-09-18T19:06:32.357855+00:00",
+        "last_updated": "2023-09-18T19:06:32.357855+00:00",
+        "context": {
+          "id": "01HAMTZT1512BFC2VHEB255JAX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "90",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.leaving_room_0x00158d0009cf93b6_pressure",
+        "state": "1003.3",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "hPa",
+          "device_class": "atmospheric_pressure",
+          "friendly_name": "PA"
+        },
+        "last_changed": "2023-09-19T13:59:04.992499+00:00",
+        "last_updated": "2023-09-19T13:59:04.992499+00:00",
+        "context": {
+          "id": "01HAPVSJ106DCHAN1CY6FGNJAQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1003.3",
+        "native_unit_of_measurement": "hPa"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.leaving_room_0x00158d0009cf93b6_temperature",
+        "state": "25.02",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Température"
+        },
+        "last_changed": "2023-09-19T13:47:31.755411+00:00",
+        "last_updated": "2023-09-19T13:47:31.755411+00:00",
+        "context": {
+          "id": "01HAPV4D1B60M690F5JTB91R8R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "25.02",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.batterie_low",
+        "state": "on",
+        "attributes": {
+          "id": "1694939364028",
+          "last_triggered": "2023-09-17T09:00:50.399703+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "batterie du capteur de température du salon atteint un niveau critique"
+        },
+        "last_changed": "2023-09-18T13:20:11.518713+00:00",
+        "last_updated": "2023-09-18T13:20:11.518713+00:00",
+        "context": {
+          "id": "01HAM75M7YQSCJY1HPN5FBMVJG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-19T14:16:38.469880+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.0x00158d0009cf93b6_battery",
+        "state": "100",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "friendly_name": "Batterie"
+        },
+        "last_changed": "2023-09-16T16:32:11.788898+00:00",
+        "last_updated": "2023-09-16T16:49:34.248304+00:00",
+        "context": {
+          "id": "01HAFEBJH820NJAENTRYW6MHXX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-16T16:53:28.877464+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.0x00158d0009cf93b6_temperature",
+        "state": "26.86",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "friendly_name": "Température"
+        },
+        "last_changed": "2023-09-16T16:39:10.270523+00:00",
+        "last_updated": "2023-09-16T16:39:10.270523+00:00",
+        "context": {
+          "id": "01HAFDRH5Y36FE1FZSPZGKG6RZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "26.86",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2023-09-16T16:53:52.103304+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.0x00158d0009cf93b6_humidity",
+        "state": "55.82",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "Humidité"
+        },
+        "last_changed": "2023-09-16T16:39:10.270102+00:00",
+        "last_updated": "2023-09-16T16:39:10.270102+00:00",
+        "context": {
+          "id": "01HAFDRH5YNSDPB4HKWN0WD440",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "55.82",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-16T16:52:32.394358+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.0x00158d0009cf93b6_pressure",
+        "state": "999.9",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "hPa",
+          "device_class": "atmospheric_pressure",
+          "friendly_name": "Pression"
+        },
+        "last_changed": "2023-09-16T16:39:10.269585+00:00",
+        "last_updated": "2023-09-16T16:49:40.891657+00:00",
+        "context": {
+          "id": "01HAFEBS0VPDKSMCT2EQCA6WQG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "999.9",
+        "native_unit_of_measurement": "hPa"
+      },
+      "last_seen": "2023-09-16T16:53:46.306762+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "light.0x847127fffedd23af",
+        "state": "unknown",
+        "attributes": {
+          "effect_list": [
+            "blink",
+            "breathe",
+            "okay",
+            "channel_change",
+            "finish_effect",
+            "stop_effect"
+          ],
+          "supported_color_modes": [
+            "brightness"
+          ],
+          "friendly_name": "0x847127fffedd23af",
+          "supported_features": 44
+        },
+        "last_changed": "2023-09-14T20:11:59.393515+00:00",
+        "last_updated": "2023-09-14T20:11:59.393515+00:00",
+        "context": {
+          "id": "01HAAN4S119HQPH8YP18XSJCAZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-15T08:08:56.112123+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "select.0x847127fffedd23af_power_on_behavior",
+        "state": "unknown",
+        "attributes": {
+          "options": [
+            "off",
+            "on",
+            "toggle",
+            "previous"
+          ],
+          "icon": "mdi:power-settings",
+          "friendly_name": "0x847127fffedd23af Power-on behavior"
+        },
+        "last_changed": "2023-09-14T20:11:59.393209+00:00",
+        "last_updated": "2023-09-14T20:11:59.393209+00:00",
+        "context": {
+          "id": "01HAAN4S1190P81WF6C9PW0T34",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-15T08:08:56.114481+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.0x847127fffedd23af",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "304371058",
+          "in_progress": false,
+          "latest_version": "587753009",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": null,
+          "device_class": "firmware",
+          "entity_picture": "https://github.com/Koenkk/zigbee2mqtt/raw/master/images/logo.png",
+          "friendly_name": "0x847127fffedd23af",
+          "supported_features": 1
+        },
+        "last_changed": "2023-09-14T20:12:31.457315+00:00",
+        "last_updated": "2023-09-14T20:12:31.457315+00:00",
+        "context": {
+          "id": "01HAAN5RB1VS7V3YCNBA86H3AJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-15T08:08:56.116906+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.nouvelle_automatisation",
+        "state": "on",
+        "attributes": {
+          "id": "1694980997619",
+          "last_triggered": "2023-09-18T08:02:50.355662+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Nouvelle automatisation"
+        },
+        "last_changed": "2023-09-17T20:04:18.618140+00:00",
+        "last_updated": "2023-09-18T08:02:50.379728+00:00",
+        "context": {
+          "id": "01HAKN0HBJWPXP03DQV4Z6E7SS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-09-18T13:20:00.675935+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.0x00158d0009cf93b6_humidityddd",
+        "state": "55.82",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "humidity",
+          "friendly_name": "Humidité"
+        },
+        "last_changed": "2023-09-16T16:52:32.404312+00:00",
+        "last_updated": "2023-09-16T16:52:32.404312+00:00",
+        "context": {
+          "id": "01HAFEH0GM4PHR95BA9NDG9JVX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "55.82",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-09-16T16:53:22.132647+00:00"
+    }
+  ]
+}

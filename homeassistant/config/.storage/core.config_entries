@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "d5d5f37c49377e3eb827758a9348400a",
+        "version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7608315124bf62d03e230da857595a16",
+        "version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d66ac0e822edc9251e77f6580b720a59",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "46dc0e06b65d1d8c2ae8c5702c698187",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6b366f9d2f6e9601c29eaeaba7ff1c4f",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2baeef1bd1d90ff20b6385c7c6c6bb3d",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "192.168.1.5",
+        "data": {
+          "broker": "192.168.1.5",
+          "port": 1883,
+          "username": "homeassistant",
+          "password": "AlmpTG75",
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5ca4fee1b201d0806b7f8862a54dd23f",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone",
+        "data": {
+          "supports_encryption": true,
+          "model": "iPhone13,1",
+          "device_id": "F5A47A34-3BAB-4C64-A895-2FACF010311C",
+          "app_name": "Home Assistant",
+          "manufacturer": "Apple",
+          "os_name": "iOS",
+          "device_name": "iPhone",
+          "app_data": {
+            "push_token": "cFE8SAcYMkS-ok-zyhc42M:APA91bHgtPynTkC_W5c-F0wC8bxOsoeG8zYhF9EMw6RJS1vM4Img_P6USzbYRnytTR89nPKFpHIqoilGszfaEMid52s21qDomn201FyaaDojH4HCGnbeynNBrkf1AxyyBKGfEkSFr4b4",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_version": "2023.4 (2023.460)",
+          "os_version": "17.0",
+          "app_id": "io.robbie.HomeAssistant",
+          "webhook_id": "7bbdfc837bc43ab24cff18fc870cc9723112bca40de11ebcc89757d7cb82de42",
+          "secret": "da625f1bfc52f6e7eede06ca96e4d12c820d5725558c35435c963f045f871ae5",
+          "user_id": "f180b0ae335c4298b663f9eadbbb89db",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-F5A47A34-3BAB-4C64-A895-2FACF010311C",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "24bf819a6bcfaa83ea313e20fe1757e7",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6d1c19d9cd472f49383d1b24a768d4a9",
+        "version": "1.0.0",
+        "domain": "alarmo",
+        "title": "Alarmo",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "7c7f994b7021",
+        "disabled_by": null
+      }
+    ]
+  }
+}

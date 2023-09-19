@@ -1,0 +1,29 @@
+- id: '1694766129642'
+  name: Nouvelle scène
+  entities:
+    sensor.0x00158d0009cf93b6_humidity:
+      state_class: measurement
+      unit_of_measurement: '%'
+      device_class: humidity
+      friendly_name: Humidité
+      state: '44.92'
+    sensor.0x00158d0009cf93b6_pressure:
+      state_class: measurement
+      unit_of_measurement: hPa
+      device_class: atmospheric_pressure
+      friendly_name: Pression atmosphérique
+      state: '1004.9'
+    sensor.0x00158d0009cf93b6_temperature:
+      state_class: measurement
+      unit_of_measurement: °C
+      device_class: temperature
+      friendly_name: Température
+      state: '28.84'
+    sensor.0x00158d0009cf93b6_battery:
+      state_class: measurement
+      unit_of_measurement: '%'
+      device_class: battery
+      friendly_name: temperature_sensor_leaving_room Batterie
+      state: '100'
+  icon: mdi:television
+  metadata: {}

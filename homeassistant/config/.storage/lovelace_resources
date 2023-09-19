@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "id": "5b0cd32f418c413990556eb8ff1d4ae8",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375310",
+        "type": "module"
+      },
+      {
+        "id": "7da9e262712f44ba9d82ba4578374a20",
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module"
+      }
+    ]
+  }
+}

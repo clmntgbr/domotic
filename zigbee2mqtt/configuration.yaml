@@ -1,0 +1,24 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mosquitto
+  user: homeassistant
+  password: AlmpTG75
+serial:
+  port: /dev/ttyACM0
+frontend:
+  port: 8089
+advanced:
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+device_options:
+  legacy: false
+devices:
+  '0x00158d0009cf93b6':
+    friendly_name: '0x00158d0009cf93b6'
+    temperature_precision: 2
+blocklist:
+  - '0x847127fffedd23af'
+availability: true

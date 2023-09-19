@@ -1,0 +1,2 @@
+#create user
+docker exec -it mqtt mosquitto_passwd -c /mosquitto/config/mqttuser homeassistant

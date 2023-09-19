@@ -1,0 +1,17 @@
+- id: '1694939364028'
+  alias: batterie du capteur de température du salon atteint un niveau critique
+  description: ''
+  trigger:
+  - type: battery_level
+    platform: device
+    device_id: f8461a92c68a53b62a4f4f1679e52807
+    entity_id: 360369f0f4e6dae206011c9e809d6619
+    domain: sensor
+    below: 5
+  condition: []
+  action:
+  - service: notify.homeassistant
+    data:
+      message: La batterie du capteur de température du salon atteint un niveau critique
+        (-10%)
+  mode: single
